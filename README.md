@@ -29,3 +29,5 @@ subject = APP-SPC800 接口自动化测试结果
 content = "APP-SPC800 接口自动化测试报告"
 on_off = 1  # 1:to send test result report; 0: not send test result report
 ```
+
+##测试用例文件，必须是以test_开头，才能检测到文件并执行测试用例
