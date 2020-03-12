@@ -1,0 +1,208 @@
+2020-03-12 09:35:50,062 - APP_interfaceTest - INFO - The Interface Test is starting.....
+2020-03-12 09:35:50,173 - APP_interfaceTest - INFO - F:\web\interfaceTest\testFile\testdata.xlsx 测试数据获取正常
+2020-03-12 09:35:50,207 - APP_interfaceTest - INFO - /user/login
+2020-03-12 09:35:51,685 - APP_interfaceTest - INFO - <Response [200]>
+2020-03-12 09:35:51,685 - APP_interfaceTest - INFO - False
+2020-03-12 09:35:51,687 - APP_interfaceTest - INFO - 上报经纬度/app/position
+2020-03-12 09:35:51,757 - APP_interfaceTest - INFO - {"buildCode":"2","data":{},"failCode":0,"message":"","params":null,"success":false}
+2020-03-12 09:35:51,758 - APP_interfaceTest - INFO - 新建电站/station/nameRepeat
+2020-03-12 09:35:51,895 - APP_interfaceTest - INFO - 正在测试/station/add
+2020-03-12 09:35:51,966 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:51,967 - APP_interfaceTest - INFO - 正在测试：/station/page
+2020-03-12 09:35:52,031 - APP_interfaceTest - INFO - 更新电站基本信息：/station/updateStationInfoBasic
+2020-03-12 09:35:52,031 - APP_interfaceTest - INFO - InterFacePlant_yn8
+2020-03-12 09:35:52,084 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,084 - APP_interfaceTest - INFO - 测试更新绑定设备：/station/updateBindDevs
+2020-03-12 09:35:52,130 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,131 - APP_interfaceTest - INFO - 测试更新电价：/ongridprice/update
+2020-03-12 09:35:52,131 - APP_interfaceTest - INFO - {'priceTotal': [{'items': [{'beginHour': '0', 'endHour': '24', 'price': '0.85'}], 'price': {'beginDate': 978278400000, 'domainId': '2', 'endDate': 1009728000000, 'stationCode': '5B98C6A5262C46ED8F6F31F7D675CA40'}}], 'stationCode': '5B98C6A5262C46ED8F6F31F7D675CA40'}
+2020-03-12 09:35:52,188 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,189 - APP_interfaceTest - INFO - 测试更新其它信息：/station/updateStationInfoOther
+2020-03-12 09:35:52,247 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,248 - APP_interfaceTest - INFO - 测试业主管理接口：/user/saveUser
+2020-03-12 09:35:52,248 - APP_interfaceTest - INFO - 注册登录账号为：test_73
+2020-03-12 09:35:52,248 - APP_interfaceTest - INFO - {'areaid': [{'id': '1', 'model': 'DOMAIN'}], 'roleid': ['3'], 'user': {'description': '', 'domainid': '1', 'loginName': 'test_73', 'mail': 'test_73@c.com', 'occupLevel': '1', 'password': 'a1111111', 'status': 'ACTIVE', 'tel': '', 'toSend': 'true', 'userName': 'test_73', 'userType': 'PROPRIETOR'}}
+2020-03-12 09:35:52,294 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,295 - APP_interfaceTest - INFO - 查询用户：/user/queryUsers
+2020-03-12 09:35:52,339 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,340 - APP_interfaceTest - INFO - 更新账号信息: /user/updateUser
+2020-03-12 09:35:52,340 - APP_interfaceTest - INFO - {'areaid': [{'id': '1', 'model': 'DOMAIN'}], 'roleid': ['2'], 'user': {'description': '', 'domainid': '1', 'loginName': 'nxndm111', 'mail': 'gulinjie123d@qq.com', 'occupLevel': '1', 'status': 'ACTIVE', 'tel': '', 'userName': 'nxndm111', 'userType': 'PROPRIETOR', 'userid': 30}, 'userid': '26'}
+2020-03-12 09:35:52,396 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,453 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,454 - APP_interfaceTest - INFO - Devices List: /booster/list
+2020-03-12 09:35:52,516 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,518 - APP_interfaceTest - INFO - Devices List: /booster/list
+2020-03-12 09:35:52,575 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,576 - APP_interfaceTest - INFO - Devices List: /booster/list
+2020-03-12 09:35:52,609 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,609 - APP_interfaceTest - INFO - 电站列表索引：/station/indexStationList
+2020-03-12 09:35:52,642 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,643 - APP_interfaceTest - INFO - 查询用户：/user/queryUserByidAnonymous
+2020-03-12 09:35:52,685 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,686 - APP_interfaceTest - INFO - 用户信息（头像）[get请求]：/user/getCurUserImage
+2020-03-12 09:35:52,728 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,729 - APP_interfaceTest - INFO - TODO更新：/upgrade/getTodoUpgradeCount
+2020-03-12 09:35:52,772 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,772 - APP_interfaceTest - INFO - 待办：/workflow/listTodoProcess
+2020-03-12 09:35:52,817 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,818 - APP_interfaceTest - INFO - 推送历史消息：/app/getPushHistoryMsgByUser
+2020-03-12 09:35:52,891 - APP_interfaceTest - INFO - {"data":{"errorCode":423},"failCode":0,"params":null,"success":false}
+2020-03-12 09:35:52,891 - APP_interfaceTest - INFO - 判断是否是多电站：/station/indexStationList
+2020-03-12 09:35:52,936 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:52,937 - APP_interfaceTest - INFO - 企业信息：/enterpriseInfo/getEnterpriseInfo
+2020-03-12 09:35:52,992 - APP_interfaceTest - INFO - {"buildCode":"2","data":{"filingNo":null},"failCode":0,"message":"","params":null,"success":true}
+2020-03-12 09:35:52,993 - APP_interfaceTest - INFO - 关于（版本信息）: /enterpriseInfo/getSystemVersion
+2020-03-12 09:35:53,282 - APP_interfaceTest - INFO - {"buildCode":"2","data":{"dependentPlatformVersion":"PlatformV300R006C10B010","issuDate":"05/12/2019","mainVersion":"PVMS730V300R006C10SPC200B030","minVersion":"PVMS730V300R006C10SPC200B030","patchVersion":""},"failCode":0,"message":"","params":null,"success":true}
+2020-03-12 09:35:53,283 - APP_interfaceTest - INFO - 关于-隐私申明中的logo:/enterpriseInfo/getLogoAndTitle
+2020-03-12 09:35:53,348 - APP_interfaceTest - INFO - {"buildCode":"2","data":{"filingNo":null,"smsRegisterEnable":"true","installerRegister":"true"},"failCode":0,"message":"","params":null,"success":true}
+2020-03-12 09:35:53,348 - APP_interfaceTest - INFO - 最近5次登录：/user/getLastFiveLogin
+2020-03-12 09:35:53,402 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,403 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:35:53,442 - APP_interfaceTest - INFO - {'statTime': '1583976953403', 'statDim': '2', 'querySource': '1', 'statType': '1', 'userId': '26', 'sIds': '', 'timeZone': '8'}
+2020-03-12 09:35:53,442 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,443 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:35:53,482 - APP_interfaceTest - INFO - {'statTime': '1583976953443', 'statDim': '2', 'querySource': '1', 'statType': '1', 'userId': '26', 'sIds': '5B98C6A5262C46ED8F6F31F7D675CA40', 'timeZone': '6'}
+2020-03-12 09:35:53,482 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,483 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:35:53,526 - APP_interfaceTest - INFO - {'statTime': '1583976953483', 'statDim': '4', 'querySource': '1', 'statType': '1', 'userId': '26', 'sIds': '', 'timeZone': '5'}
+2020-03-12 09:35:53,526 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,527 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:35:53,569 - APP_interfaceTest - INFO - {'statTime': '1583976953527', 'statDim': '5', 'querySource': '1', 'statType': '1', 'userId': '26', 'sIds': '', 'timeZone': '-12'}
+2020-03-12 09:35:53,569 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,570 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:35:53,612 - APP_interfaceTest - INFO - {'statTime': '1583976953570', 'statDim': '6', 'querySource': '1', 'statType': '1', 'userId': '26', 'sIds': '', 'timeZone': '0'}
+2020-03-12 09:35:53,612 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,613 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:35:53,654 - APP_interfaceTest - INFO - {'statTime': '1583976953613', 'statDim': '2', 'querySource': '1', 'statType': '2', 'userId': '26', 'sIds': '', 'timeZone': '-5'}
+2020-03-12 09:35:53,654 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,655 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:35:53,696 - APP_interfaceTest - INFO - {'statTime': '1583976953655', 'statDim': '2', 'querySource': '1', 'statType': '2', 'userId': '26', 'sIds': '', 'timeZone': '9'}
+2020-03-12 09:35:53,696 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,697 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:35:53,737 - APP_interfaceTest - INFO - {'statTime': '1583976953697', 'statDim': '4', 'querySource': '1', 'statType': '3', 'userId': '26', 'sIds': '', 'timeZone': '5'}
+2020-03-12 09:35:53,737 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,738 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:35:53,777 - APP_interfaceTest - INFO - {'statTime': '1583976953738', 'statDim': '9', 'querySource': '1', 'statType': '2', 'userId': '26', 'sIds': '', 'timeZone': '4'}
+2020-03-12 09:35:53,777 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,810 - APP_interfaceTest - INFO - {'statTime': '1583976953777', 'statDim': '2', 'statType': '1', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '8'}
+2020-03-12 09:35:53,810 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,849 - APP_interfaceTest - INFO - {'statTime': '1583976953810', 'statDim': '2', 'statType': '1', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '5B98C6A5262C46ED8F6F31F7D675CA40', 'timeZone': '6'}
+2020-03-12 09:35:53,849 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,881 - APP_interfaceTest - INFO - {'statTime': '1583976953849', 'statDim': '4', 'statType': '1', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '5'}
+2020-03-12 09:35:53,881 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,919 - APP_interfaceTest - INFO - {'statTime': '1583976953882', 'statDim': '5', 'statType': '1', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '-12'}
+2020-03-12 09:35:53,919 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,960 - APP_interfaceTest - INFO - {'statTime': '1583976953920', 'statDim': '6', 'statType': '1', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '0'}
+2020-03-12 09:35:53,960 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:53,997 - APP_interfaceTest - INFO - {'statTime': '1583976953961', 'statDim': '2', 'statType': '2', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '-5'}
+2020-03-12 09:35:53,997 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:54,031 - APP_interfaceTest - INFO - {'statTime': '1583976953998', 'statDim': '2', 'statType': '2', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '9'}
+2020-03-12 09:35:54,031 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:54,071 - APP_interfaceTest - INFO - {'statTime': '1583976954032', 'statDim': '4', 'statType': '3', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '5'}
+2020-03-12 09:35:54,071 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:35:54,111 - APP_interfaceTest - INFO - {'statTime': '1583976954071', 'statDim': '9', 'statType': '2', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '4'}
+2020-03-12 09:35:54,111 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:08,578 - APP_interfaceTest - INFO - The Interface Test is starting.....
+2020-03-12 09:47:08,673 - APP_interfaceTest - INFO - F:\web\interfaceTest\testFile\testdata.xlsx 测试数据获取正常
+2020-03-12 09:47:08,695 - APP_interfaceTest - INFO - /user/login
+2020-03-12 09:47:09,811 - APP_interfaceTest - INFO - <Response [200]>
+2020-03-12 09:47:09,811 - APP_interfaceTest - INFO - False
+2020-03-12 09:47:09,813 - APP_interfaceTest - INFO - 上报经纬度/app/position
+2020-03-12 09:47:09,900 - APP_interfaceTest - INFO - {"buildCode":"2","data":{},"failCode":0,"message":"","params":null,"success":false}
+2020-03-12 09:47:09,900 - APP_interfaceTest - INFO - 新建电站/station/nameRepeat
+2020-03-12 09:47:09,940 - APP_interfaceTest - INFO - 正在测试/station/add
+2020-03-12 09:47:09,978 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:09,979 - APP_interfaceTest - INFO - 正在测试：/station/page
+2020-03-12 09:47:10,019 - APP_interfaceTest - INFO - 更新电站基本信息：/station/updateStationInfoBasic
+2020-03-12 09:47:10,019 - APP_interfaceTest - INFO - InterFacePlant_yn8
+2020-03-12 09:47:10,060 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,060 - APP_interfaceTest - INFO - 测试更新绑定设备：/station/updateBindDevs
+2020-03-12 09:47:10,099 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,100 - APP_interfaceTest - INFO - 测试更新电价：/ongridprice/update
+2020-03-12 09:47:10,100 - APP_interfaceTest - INFO - {'priceTotal': [{'items': [{'beginHour': '0', 'endHour': '24', 'price': '0.85'}], 'price': {'beginDate': 978278400000, 'domainId': '2', 'endDate': 1009728000000, 'stationCode': '5B98C6A5262C46ED8F6F31F7D675CA40'}}], 'stationCode': '5B98C6A5262C46ED8F6F31F7D675CA40'}
+2020-03-12 09:47:10,132 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,133 - APP_interfaceTest - INFO - 测试更新其它信息：/station/updateStationInfoOther
+2020-03-12 09:47:10,171 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,172 - APP_interfaceTest - INFO - 测试业主管理接口：/user/saveUser
+2020-03-12 09:47:10,172 - APP_interfaceTest - INFO - 注册登录账号为：test_63
+2020-03-12 09:47:10,172 - APP_interfaceTest - INFO - {'areaid': [{'id': '1', 'model': 'DOMAIN'}], 'roleid': ['3'], 'user': {'description': '', 'domainid': '1', 'loginName': 'test_63', 'mail': 'test_63@c.com', 'occupLevel': '1', 'password': 'a1111111', 'status': 'ACTIVE', 'tel': '', 'toSend': 'true', 'userName': 'test_63', 'userType': 'PROPRIETOR'}}
+2020-03-12 09:47:10,211 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,211 - APP_interfaceTest - INFO - 查询用户：/user/queryUsers
+2020-03-12 09:47:10,245 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,246 - APP_interfaceTest - INFO - 更新账号信息: /user/updateUser
+2020-03-12 09:47:10,246 - APP_interfaceTest - INFO - {'areaid': [{'id': '1', 'model': 'DOMAIN'}], 'roleid': ['2'], 'user': {'description': '', 'domainid': '1', 'loginName': 'nxndm111', 'mail': 'gulinjie123d@qq.com', 'occupLevel': '1', 'status': 'ACTIVE', 'tel': '', 'userName': 'nxndm111', 'userType': 'PROPRIETOR', 'userid': 30}, 'userid': '26'}
+2020-03-12 09:47:10,285 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,324 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,325 - APP_interfaceTest - INFO - Devices List: /booster/list
+2020-03-12 09:47:10,364 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,364 - APP_interfaceTest - INFO - Devices List: /booster/list
+2020-03-12 09:47:10,404 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,404 - APP_interfaceTest - INFO - Devices List: /booster/list
+2020-03-12 09:47:10,443 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,444 - APP_interfaceTest - INFO - 电站列表索引：/station/indexStationList
+2020-03-12 09:47:10,483 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,484 - APP_interfaceTest - INFO - 查询用户：/user/queryUserByidAnonymous
+2020-03-12 09:47:10,523 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,524 - APP_interfaceTest - INFO - 用户信息（头像）[get请求]：/user/getCurUserImage
+2020-03-12 09:47:10,555 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,556 - APP_interfaceTest - INFO - TODO更新：/upgrade/getTodoUpgradeCount
+2020-03-12 09:47:10,596 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,597 - APP_interfaceTest - INFO - 待办：/workflow/listTodoProcess
+2020-03-12 09:47:10,635 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,636 - APP_interfaceTest - INFO - 推送历史消息：/app/getPushHistoryMsgByUser
+2020-03-12 09:47:10,679 - APP_interfaceTest - INFO - {"data":{"errorCode":423},"failCode":0,"params":null,"success":false}
+2020-03-12 09:47:10,680 - APP_interfaceTest - INFO - 判断是否是多电站：/station/indexStationList
+2020-03-12 09:47:10,720 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,720 - APP_interfaceTest - INFO - 企业信息：/enterpriseInfo/getEnterpriseInfo
+2020-03-12 09:47:10,766 - APP_interfaceTest - INFO - {"buildCode":"2","data":{"filingNo":null},"failCode":0,"message":"","params":null,"success":true}
+2020-03-12 09:47:10,766 - APP_interfaceTest - INFO - 关于（版本信息）: /enterpriseInfo/getSystemVersion
+2020-03-12 09:47:10,811 - APP_interfaceTest - INFO - {"buildCode":"2","data":{"dependentPlatformVersion":"PlatformV300R006C10B010","issuDate":"05/12/2019","mainVersion":"PVMS730V300R006C10SPC200B030","minVersion":"PVMS730V300R006C10SPC200B030","patchVersion":""},"failCode":0,"message":"","params":null,"success":true}
+2020-03-12 09:47:10,811 - APP_interfaceTest - INFO - 关于-隐私申明中的logo:/enterpriseInfo/getLogoAndTitle
+2020-03-12 09:47:10,855 - APP_interfaceTest - INFO - {"buildCode":"2","data":{"filingNo":null,"smsRegisterEnable":"true","installerRegister":"true"},"failCode":0,"message":"","params":null,"success":true}
+2020-03-12 09:47:10,856 - APP_interfaceTest - INFO - 最近5次登录：/user/getLastFiveLogin
+2020-03-12 09:47:10,882 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,882 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:47:10,915 - APP_interfaceTest - INFO - {'statTime': '1583977630882', 'statDim': '2', 'querySource': '1', 'statType': '1', 'userId': '26', 'sIds': '', 'timeZone': '8'}
+2020-03-12 09:47:10,915 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,916 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:47:10,953 - APP_interfaceTest - INFO - {'statTime': '1583977630916', 'statDim': '2', 'querySource': '1', 'statType': '1', 'userId': '26', 'sIds': '5B98C6A5262C46ED8F6F31F7D675CA40', 'timeZone': '6'}
+2020-03-12 09:47:10,953 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,954 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:47:10,991 - APP_interfaceTest - INFO - {'statTime': '1583977630954', 'statDim': '4', 'querySource': '1', 'statType': '1', 'userId': '26', 'sIds': '', 'timeZone': '5'}
+2020-03-12 09:47:10,991 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:10,992 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:47:11,030 - APP_interfaceTest - INFO - {'statTime': '1583977630992', 'statDim': '5', 'querySource': '1', 'statType': '1', 'userId': '26', 'sIds': '', 'timeZone': '-12'}
+2020-03-12 09:47:11,030 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:11,030 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:47:11,064 - APP_interfaceTest - INFO - {'statTime': '1583977631030', 'statDim': '6', 'querySource': '1', 'statType': '1', 'userId': '26', 'sIds': '', 'timeZone': '0'}
+2020-03-12 09:47:11,064 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:11,064 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:47:11,103 - APP_interfaceTest - INFO - {'statTime': '1583977631065', 'statDim': '2', 'querySource': '1', 'statType': '2', 'userId': '26', 'sIds': '', 'timeZone': '-5'}
+2020-03-12 09:47:11,103 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:11,104 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:47:11,135 - APP_interfaceTest - INFO - {'statTime': '1583977631104', 'statDim': '2', 'querySource': '1', 'statType': '2', 'userId': '26', 'sIds': '', 'timeZone': '9'}
+2020-03-12 09:47:11,136 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:11,136 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:47:11,176 - APP_interfaceTest - INFO - {'statTime': '1583977631136', 'statDim': '4', 'querySource': '1', 'statType': '3', 'userId': '26', 'sIds': '', 'timeZone': '5'}
+2020-03-12 09:47:11,176 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:11,176 - APP_interfaceTest - INFO - /rm/listKpiChart
+2020-03-12 09:47:11,216 - APP_interfaceTest - INFO - {'statTime': '1583977631177', 'statDim': '9', 'querySource': '1', 'statType': '2', 'userId': '26', 'sIds': '', 'timeZone': '4'}
+2020-03-12 09:47:11,216 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:11,256 - APP_interfaceTest - INFO - {'statTime': '1583977631216', 'statDim': '2', 'statType': '1', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '8'}
+2020-03-12 09:47:11,256 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:11,289 - APP_interfaceTest - INFO - {'statTime': '1583977631256', 'statDim': '2', 'statType': '1', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '5B98C6A5262C46ED8F6F31F7D675CA40', 'timeZone': '6'}
+2020-03-12 09:47:11,289 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:11,329 - APP_interfaceTest - INFO - {'statTime': '1583977631289', 'statDim': '4', 'statType': '1', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '5'}
+2020-03-12 09:47:11,329 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:11,369 - APP_interfaceTest - INFO - {'statTime': '1583977631329', 'statDim': '5', 'statType': '1', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '-12'}
+2020-03-12 09:47:11,369 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:11,410 - APP_interfaceTest - INFO - {'statTime': '1583977631370', 'statDim': '6', 'statType': '1', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '0'}
+2020-03-12 09:47:11,410 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:11,450 - APP_interfaceTest - INFO - {'statTime': '1583977631410', 'statDim': '2', 'statType': '2', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '-5'}
+2020-03-12 09:47:11,450 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:11,490 - APP_interfaceTest - INFO - {'statTime': '1583977631451', 'statDim': '2', 'statType': '2', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '9'}
+2020-03-12 09:47:11,490 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:11,528 - APP_interfaceTest - INFO - {'statTime': '1583977631490', 'statDim': '4', 'statType': '3', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '5'}
+2020-03-12 09:47:11,528 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
+2020-03-12 09:47:11,564 - APP_interfaceTest - INFO - {'statTime': '1583977631529', 'statDim': '9', 'statType': '2', 'userId': '26', 'pageSize': '50', 'sort': 'asc', 'orderBy': 'kpiModel.fmtCollectTimeStr', 'page': '1', 'sIds': '', 'timeZone': '4'}
+2020-03-12 09:47:11,564 - APP_interfaceTest - INFO - {"data":{"failCode":306,"immediately":true,"message":"USER_MUST_RELOGIN"},"failCode":306,"params":null,"success":false}
